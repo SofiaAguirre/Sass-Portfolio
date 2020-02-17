@@ -478,6 +478,13 @@
   }
 }
 
+@media screen and (max-height: 760px) {
+  .contact .social-icons {
+    position: absolute;
+    top: 8rem !important;
+  }
+}
+
 body {
   background: #272727;
   color: white;
