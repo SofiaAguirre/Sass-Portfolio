@@ -478,10 +478,19 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .home footer {
+    visibility: hidden;
+  }
+}
+
 @media screen and (max-height: 760px) {
   .contact .social-icons {
     position: absolute;
     top: 8rem !important;
+  }
+  .contact footer {
+    visibility: hidden;
   }
 }
 

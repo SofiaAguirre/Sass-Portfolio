@@ -20,6 +20,11 @@ $secondary-color: #ff652f;
     }
 
 }
+@mixin media-xs{
+    @media screen and (max-width: 375px){
+        @content;
+    }
+}
 @mixin media-s{
     @media screen and (max-width: 425px){
         @content;

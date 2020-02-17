@@ -55,12 +55,21 @@
     font-size: 1.2rem;
   }
 }
+@include media-xs {
+  .home{
+    footer{
+        visibility: hidden;
+    }
+  }
+}
 @include media-h {
   .contact {
     .social-icons {
       position: absolute;
-      top: 8rem!important;
+      top: 8rem !important;
+    }
+    footer{
+        visibility: hidden;
     }
   }
-  
 }
